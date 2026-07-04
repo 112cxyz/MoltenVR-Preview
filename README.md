@@ -15,9 +15,9 @@ Windows VR games run under Wine with D3D11 translated to Metal, a custom OpenXR 
 captures every frame, and hardware H.264 streams it to the stock ALVR client on your headset -
 with full 6DoF tracking, controllers, haptics, and game audio coming back the other way.
 
-> **This is a free 7-day preview.** Everything works, for one week from first launch. After
-> that, check back here for new releases - or support development on **Patreon (coming soon)**
-> to help make the full version happen.
+> **Free 7-day preview.** Everything works for one week from first launch. To keep going, enter a
+> license key in the app to unlock the latest version - support me on **Patreon (coming soon)** to
+> get your key. New preview releases also reset the window.
 
 ### Features
 
@@ -36,6 +36,7 @@ with full 6DoF tracking, controllers, haptics, and game audio coming back the ot
 | Beat Saber 1.44.1 | Steam | Unity 6 |
 | Beat Saber 1.40.8 (modded, BSIPA) | BSManager | Unity 2022.3 |
 | Iron Lung VR | itch.io | Unity |
+| Minecraft + Vivecraft | Prism | native (no Wine!) |
 
 Other Unity OpenXR/OpenVR titles may work - try yours and open an issue with the result.
 
@@ -71,8 +72,12 @@ Open an issue with the game name - unsupported games usually just need one more 
 extension advertised, which is a small fix.
 
 ***What happens after the 7 days?***
-The preview stops streaming and points you here. New preview releases may reset the window;
-the full version will be announced here and on Patreon.
+The app asks for a license key. Enter one (from Patreon) to unlock the latest version on this
+Mac - or grab a fresh preview release here, which resets the window.
+
+***Does Minecraft really run in VR on a Mac?***
+Yes - via Vivecraft, fully native (no Wine). It's the first working Mac Minecraft VR since
+SteamVR for Mac was discontinued in 2020.
 
 ### Credits
 
