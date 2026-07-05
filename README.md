@@ -33,10 +33,16 @@ with full 6DoF tracking, controllers, haptics, and game audio coming back the ot
 
 | Game | Source | Engine |
 |------|--------|--------|
+| **Half-Life: Alyx** | Steam | Source 2 |
 | Beat Saber 1.44.1 | Steam | Unity 6 |
 | Beat Saber 1.40.8 (modded, BSIPA) | BSManager | Unity 2022.3 |
 | Iron Lung VR | itch.io | Unity |
 | Minecraft + Vivecraft | Prism | native (no Wine!) |
+
+Half-Life: Alyx runs fully playable - DXVK rendering, [OpenComposite](https://gitlab.com/znixian/OpenOVR)
+translating SteamVR calls onto the MoltenVR OpenXR runtime, with tracking, controllers and
+haptics all working. (No in-game rebinding UI - OpenComposite has no SteamVR dashboard;
+edit `game/hlvr/cfg/bindings_touch.json` to change controls.)
 
 Other Unity OpenXR/OpenVR titles may work - try yours and open an issue with the result.
 
@@ -51,7 +57,7 @@ Other Unity OpenXR/OpenVR titles may work - try yours and open an issue with the
 ### Install
 
 1. Download `MoltenVR-Preview-vX.Y.Z.zip` from [Releases](../../releases), unzip, and drag
-   **MoltenVR Preview.app** to `/Applications`.
+   **MoltenVR.app** to `/Applications`.
 2. Open it - the setup wizard checks your system, sets up your Wine bottle (graphics layer +
    VR runtime install are one click each), and walks you to your first stream.
 3. Press **Start Stream**, put the headset on, open the ALVR app, and launch a game from the
@@ -83,7 +89,8 @@ SteamVR for Mac was discontinued in 2020.
 
 * [ALVR](https://github.com/alvr-org/ALVR) - streaming core and headset client
 * [DXMT](https://github.com/3Shain/dxmt) - D3D11 → Metal translation
-* [Whisky](https://getwhisky.app) - Wine distribution for macOS
+* [OpenComposite](https://gitlab.com/znixian/OpenOVR) - OpenVR → OpenXR translation for SteamVR-native games (GPLv3)
+* [Whisky](https://getwhisky.app) (frankea fork) - Wine distribution for macOS
 * [BlackHole](https://github.com/ExistentialAudio/BlackHole) - audio loopback driver
 
 ---
