@@ -72,6 +72,11 @@ Other Unity OpenXR/OpenVR titles may work - try yours and open an issue with the
 > the first time those features are used - grant both.
 > The app is not notarized yet: right-click → Open on first launch.
 
+### Guides
+
+* [Beat Saber Setup Guide](docs/guides/MoltenVR-Beat-Saber-Setup-Guide.pdf) - download to launch in six steps
+* [Bottles & DXMT, explained](docs/guides/MoltenVR-Bottles-and-DXMT-Guide.pdf) - what a bottle is and how the graphics layer works
+
 ### FAQ
 
 ***Do I need Whisky or CrossOver?***
