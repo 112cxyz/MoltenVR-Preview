@@ -74,6 +74,11 @@ Other Unity OpenXR/OpenVR titles may work - try yours and open an issue with the
 
 ### FAQ
 
+***Do I need Whisky or CrossOver?***
+No. MoltenVR has its own built-in Wine bottle manager (WhiskyWine/GPTK under the hood) and
+that's the recommended setup - the wizard creates and configures the bottle for you. If you
+already have games in a Whisky, CrossOver, or Wineskin bottle, the app can use that instead.
+
 ***Is this SteamVR for Mac?***
 No - SteamVR doesn't run on macOS. MoltenVR is its own OpenXR runtime + streaming stack,
 reusing ALVR's battle-tested transport and headset client.
@@ -92,7 +97,8 @@ SteamVR for Mac was discontinued in 2020.
 
 ### Credits
 
-* [ALVR](https://github.com/alvr-org/ALVR) - streaming core and headset client
+* [ALVR](https://github.com/alvr-org/ALVR) - streaming core and headset client (MIT License;
+  the full notice ships inside MoltenVR.app at `Contents/Resources/THIRD_PARTY_LICENSES.md`)
 * [DXMT](https://github.com/3Shain/dxmt) - D3D11 → Metal translation
 * [OpenComposite](https://gitlab.com/znixian/OpenOVR) - OpenVR → OpenXR translation for SteamVR-native games (GPLv3)
 * [WhiskyWine](https://github.com/frankea/Whisky) (via the frankea Whisky fork) - Wine build for macOS
