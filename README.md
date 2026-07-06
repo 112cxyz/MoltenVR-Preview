@@ -74,6 +74,7 @@ Other Unity OpenXR/OpenVR titles may work - try yours and open an issue with the
 
 ### Guides
 
+* [Setup Guide](docs/guides/MoltenVR-Setup-Guide.pdf) - fresh install to streaming in six steps
 * [Beat Saber Setup Guide](docs/guides/MoltenVR-Beat-Saber-Setup-Guide.pdf) - download to launch in six steps
 * [Bottles & DXMT, explained](docs/guides/MoltenVR-Bottles-and-DXMT-Guide.pdf) - what a bottle is and how the graphics layer works
 
