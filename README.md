@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/headset-any%20ALVR%20client%20(tested%20on%20Quest%203)-90ee90" alt="Headset">
   <img src="https://img.shields.io/badge/encoder-VideoToolbox%20H.264-orange" alt="Encoder">
   <img src="https://img.shields.io/badge/build-7--day%20preview-yellow" alt="Preview">
+  <a href="https://discord.gg/dGQRVw6XZD"><img src="https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 **Play PCVR games on your Apple Silicon Mac, streamed to your headset - over USB or Wi-Fi.**
@@ -18,6 +19,8 @@ with full 6DoF tracking, controllers, haptics, and game audio coming back the ot
 > **Free 7-day preview.** Everything works for one week from first launch. To keep going, enter a
 > license key in the app to unlock the latest version - support me on **Patreon (coming soon)** to
 > get your key. New preview releases also reset the window.
+
+**Join the [MoltenVR Discord](https://discord.gg/dGQRVw6XZD)** for support, announcements, and early-access builds.
 
 ### Features
 
