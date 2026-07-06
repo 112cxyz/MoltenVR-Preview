@@ -29,8 +29,9 @@ with full 6DoF tracking, controllers, haptics, and game audio coming back the ot
 * **Full input** - 6DoF head + controllers, buttons, thumbsticks, and haptics.
 * **Desktop view** - double-tap the menu button in VR to see your Mac desktop.
 * **Game audio** - routed into the stream via BlackHole.
-* **Setup wizard + management app** - bottle setup (Whisky / CrossOver / Wineskin), automatic
-  game detection (Steam, BSManager multi-version, itch.io), one-click patching, live stats.
+* **Setup wizard + management app** - built-in managed Wine bottles (WhiskyWine/GPTK, recommended;
+  existing Whisky / CrossOver / Wineskin bottles also work), automatic game detection (Steam,
+  BSManager multi-version, itch.io), one-click patching, live stats.
 
 ### Verified games
 
@@ -53,7 +54,8 @@ Other Unity OpenXR/OpenVR titles may work - try yours and open an issue with the
 
 * Apple Silicon Mac, macOS 14+
 * A headset running the [ALVR client](https://github.com/alvr-org/ALVR/releases/tag/v20.14.0) (v20.14.0)
-* A Wine environment with your games in it - [Whisky](https://getwhisky.app) recommended
+* No separate Wine app needed - MoltenVR sets up its own managed Wine bottle (recommended).
+  Existing bottles from [Whisky (frankea fork)](https://github.com/frankea/Whisky), CrossOver, or Wineskin are also supported.
 * For USB streaming: `brew install android-platform-tools`
 * For game audio: `brew install --cask blackhole-2ch && brew install switchaudio-osx`
 
@@ -93,7 +95,7 @@ SteamVR for Mac was discontinued in 2020.
 * [ALVR](https://github.com/alvr-org/ALVR) - streaming core and headset client
 * [DXMT](https://github.com/3Shain/dxmt) - D3D11 → Metal translation
 * [OpenComposite](https://gitlab.com/znixian/OpenOVR) - OpenVR → OpenXR translation for SteamVR-native games (GPLv3)
-* [Whisky](https://getwhisky.app) (frankea fork) - Wine distribution for macOS
+* [WhiskyWine](https://github.com/frankea/Whisky) (via the frankea Whisky fork) - Wine build for macOS
 * [BlackHole](https://github.com/ExistentialAudio/BlackHole) - audio loopback driver
 
 ---
